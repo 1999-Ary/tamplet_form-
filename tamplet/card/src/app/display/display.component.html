@@ -1,0 +1,55 @@
+<h4 class="h4">The Data entered in the form:</h4>
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <td>{{first_name | json}}</td>
+    </tr>
+    <tr>
+      <th>last</th>
+      <td>{{last_name | json}}</td>
+    </tr>
+    <tr>
+      <th>email</th>
+      <td>{{email | json}}</td>
+    </tr>
+    <tr>
+      <th>address</th>
+      <td>{{address | json}}</td>
+    </tr>
+    <tr>
+      <th>phoneNo</th>
+      <td>{{phoneNo | json}}</td>
+    </tr>
+    <tr>
+      <th>pin</th>
+      <td>{{pin | json}}</td>
+    </tr>
+    <!-- <tr>
+      <td class="col"><b>name</b></td>
+      <td class="col"><b>last</b></td>
+      <td class="col"><b>email</b></td>
+      <td class="col"><b>address</b></td>
+      <td class="col"><b>phoneNo</b></td>
+      <td class="col"><b>pin</b></td>
+    </tr> -->
+  </thead>
+  <!-- <tbody>
+    <tr>
+      <td class="col">{{first_name | json}}</td>
+      <td class="col">{{last_name | json}}</td>
+      <td class="col">{{email | json}}</td>
+      <td class="col">{{address | json}}</td>
+      <td class="col">{{phoneNo | json}}</td>
+      <td class="col">{{pin | json}}</td>
+    </tr>
+  </tbody> -->
+</table>
+<div>
+  <button type="button" value="clear" (click)="clear()" class="dis1">Clear Local Storage</button>
+</div>
+
+<div>
+  <a href="#" routerLink="/" routerLinkActive="active" class="dis">Done</a><br>
+</div>
+
